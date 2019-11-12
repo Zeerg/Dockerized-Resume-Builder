@@ -1,0 +1,6 @@
+.git
+Dockerfile
+Makefile
+Readme*
+scripts
+.env

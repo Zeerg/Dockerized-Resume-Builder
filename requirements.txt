@@ -1,0 +1,16 @@
+cairocffi
+CairoSVG
+cffi
+cssselect
+docopt
+html5lib
+Jinja2
+lxml
+Markdown
+MarkupSafe
+pycparser
+Pyphen
+PyYAML
+six
+tinycss
+WeasyPrint

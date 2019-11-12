@@ -1,0 +1,111 @@
+profile:
+    name: Ilan Ponimansky
+    label: Senior Devops Architect / Security Engineer 
+    email: me@ilan.sh
+    phone: Please contact me by email
+    summary: >
+        I am a Senior Devops engineer and architect with a focus on designing, implementing, securing, and automating technology solutions. I have experience building the solution as an engineer, as well as leading a team to build it as the Project Lead. Skilled with Bash, Python, Containers, anything Cloud, and all things scripting and automation. My passions are finding new ways to automate tasks and designing secure infrastructure solutions.
+    image: "https://user-images.githubusercontent.com/31193909/68639724-72de4000-04d3-11ea-8f54-236b83755cf1.png"
+    website: http://www.ilan.sh
+
+    networks:
+        -   provider: github
+            username: ilanponimansky
+            url: https://github.com/ilanponimansky
+
+        -   provider: linkedin
+            username: ilanponimansky
+            url: https://www.linkedin.com/in/ilanponimansky
+
+skills:
+    -   area: Programming
+        skills:
+            - Python
+            - Bash
+            - Ruby
+            - Powershell
+            - Node/React
+            - Go
+
+    -   area: Technology
+        skills:
+            - Automation //Chef, Puppet, Salt
+            - AWS / GCP / Azure
+            - Containers //Docker, Kubernetes, ECS
+            - CI/CD
+            - SQL / NoSQL
+            - Cyber Security
+            - Monitoring / Alerting //CloudWatch, Lambda, Datadog
+            - Linux / Windows / Mac
+            - APIs
+
+work:
+    -   company: Opsline, NYC, NY - Remote
+        role: Senior Devops Engineer and Architect - Projects Team Lead
+        date: November 2017 - Present
+        website: https://www.opsline.com/
+        summary: I lead the projecs team and I am responsible for engineering and architecting custom Devops/Security solutions for companies.
+        highlights:
+            - todo
+    
+    -   company: Cloud Quarterback, Bay Area, CA - Remote
+        role: Devops / Security Engineer
+        date: March 2016 - November 2017
+        website: https://www.cloudquarterback.com/
+        summary: Infrastructure, Security, Automation, and Devops solutions for SaaS companies.
+        highlights:
+            - Designing and implementing an automated, containerized OpenVPN solution integrated with Duo, LDAP, and Vault
+            - Full coverage monitoring, auditing, and alerting using AWS CloudWatch, Lambda, and Config
+            - Rackspace to AWS migrations
+            - Automating anything and everything if it needs to be done more than once  
+
+    -   company: StayinFront, Fairfield, NJ
+        role: System Administrator
+        date: December 2015 - March 2016
+        summary: Designing and implementing solutions for their SaaS products. Innovating/Upgrading existing implementations.
+        highlights:
+            - Upgrading and optimizing vSphere, servers, and wireless infrastructure
+            - Planning and implementing replacements of Citrix products, Skype for Business, and teleconference solutions internationally
+            - Automating various tasks such as imaging and deployment
+            
+    -   company: PRS IN VIVO
+        role: Jr. System Administrator
+        date: September 2014 - December 2015
+        highlights:
+            - Managing Exchange, Active Directory, etc
+            - Prototyping solutions such as global network-based monitoring and alerting
+            - Automating tasks such as account creation, imaging and deployment, and installations
+            - Upgrading and maintaining IT hardware including servers, wireless infrastructure, and user endpoints
+
+    -   company: Geek Squad
+        role: Operations Agent
+        date: August 2012 - September 2014
+ 
+    -   company: Helpdesk at Drew University
+        role: Helpdesk Technician
+        date: October 2010 - August 2012
+     
+
+        
+projects:
+
+    
+
+education:
+    -   location: Drew University
+        date: 2010 - 2014
+        summary: "BA: Neuroscience"
+
+
+interests:
+    - Pentesting
+    - Automation
+    - Neuroscience
+    - Music production/recording
+    - Rock Climbing
+
+
+config:
+    theme: simple
+    github_source: https://github.com/iloveicedgreentea/resume
+    pdf_file: Sebastian_Hanula_Resume.pdf
