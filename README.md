@@ -8,18 +8,21 @@ This was adapted from https://github.com/hanula/resume. I added Docker support, 
 
 ### Build image
 
-Run `make build` to build the container
+Run `make build` to build the Docker container.
 
 ### Resume
 
-Edit `resume/resume_scrubbed.yaml`. I use this to not post some sensitive info publicly. You can change `scripts/scrub.sh` to change the scrubbing behavior. 
+Copy `resume/resume_scrubbed.yaml` to  `resume/resume.yaml`. You can change `scripts/scrub.sh` to change the scrubbing behavior - I use it to remove my phone number at the moment. Changes to `resume/resume.yaml` will get copied to `resume/resume_scrubbed.yaml` and then rendered.
 
-Run `make` to build and copy the output to the `docs` folder. This gets uploaded to GitHub where GitHub Pages will serve the content. If you are hosting this in GH Pages, edit `docs/CNAME` with your domain.
+Run `make` to render and copy the output to the `docs` folder. This folder is uploaded to GitHub where GitHub Pages will optionally serve the content (select the option to serve from `/docs`). If you are hosting this in GH Pages, edit `docs/CNAME` with your domain.
 
 ## Commands
 
 Build docker image:
 `make build`
+
+Render, copy, publish the resume:
+`make`
 
 Generate html:
 `make html`
