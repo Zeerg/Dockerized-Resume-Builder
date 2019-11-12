@@ -18,7 +18,7 @@ profile:
             url: https://www.linkedin.com/in/ilanponimansky
 
 skills:
-    -   area: Programming
+    -   area: Programming Languages
         skills:
             - Python
             - Bash
@@ -40,13 +40,13 @@ skills:
             - APIs
 
 work:
-    -   company: Opsline, NYC, NY - Remote
+    -   company: Opsline, NY, NY - Remote
         role: Senior Devops Engineer and Architect - Projects Team Lead
         date: November 2017 - Present
         website: https://www.opsline.com/
         summary: I lead the projecs team and I am responsible for engineering and architecting custom Devops/Security solutions for companies.
         highlights:
-            - todo
+            - WIP
     
     -   company: Cloud Quarterback, Bay Area, CA - Remote
         role: Devops / Security Engineer
@@ -108,4 +108,4 @@ interests:
 config:
     theme: simple
     github_source: https://github.com/iloveicedgreentea/resume
-    pdf_file: Sebastian_Hanula_Resume.pdf
+    pdf_file: ilan-ponimansky-resume.pdf

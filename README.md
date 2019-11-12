@@ -1,20 +1,40 @@
 resume
 ======
 
-## Adapted from https://github.com/hanula/resume
+This was adapted from https://github.com/hanula/resume. I added docker and automation around building and my own customizations.
 
-## Docker
 
-Build image:
+## Getting Started
+
+### Build image
+
+Run `make build` to build the container
+
+### Resume
+
+Edit `resume/resume_scrubbed.yaml`. I use this to not post some sensitive info publicly. You can change `scripts/scrub.sh` to change the scrubbing behavior. 
+
+Run `make` to build and copy the output to the `docs` folder. This gets uploaded to GitHub where GitHub Pages will serve the content.
+
+## Commands
+
+Build docker image:
 `make build`
 
-Generate html
+Generate html:
 `make html`
 
-Generate pdf
+Generate pdf:
 `make pdf`
 
+Publish content:
+`make publish`
 
+Scrub file:
+`make scrub`
+
+Run Container:
+`make run`
 
 ## From original readme
 
