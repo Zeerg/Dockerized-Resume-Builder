@@ -1,7 +1,7 @@
 resume
 ======
 
-This was adapted from https://github.com/hanula/resume. I added docker and automation around building and my own customizations.
+This was adapted from https://github.com/hanula/resume. I added Docker support, automation around rendering and publishing, and my own customizations to the theme/template engine.
 
 
 ## Getting Started
