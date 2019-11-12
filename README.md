@@ -14,7 +14,7 @@ Run `make build` to build the container
 
 Edit `resume/resume_scrubbed.yaml`. I use this to not post some sensitive info publicly. You can change `scripts/scrub.sh` to change the scrubbing behavior. 
 
-Run `make` to build and copy the output to the `docs` folder. This gets uploaded to GitHub where GitHub Pages will serve the content.
+Run `make` to build and copy the output to the `docs` folder. This gets uploaded to GitHub where GitHub Pages will serve the content. If you are hosting this in GH Pages, edit `docs/CNAME` with your domain.
 
 ## Commands
 
