@@ -1,5 +1,4 @@
-resume
-======
+# My Resume
 
 This was adapted from https://github.com/hanula/resume. I added Docker support, automation around rendering and publishing, and my own customizations to the theme/template engine.
 
