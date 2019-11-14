@@ -4,14 +4,18 @@ profile:
     email: me@ilan.sh
     phone: Please contact me by email
     summary: >
-        I am a Senior Devops engineer and architect with a focus on designing, implementing, securing, and automating technology solutions. I have experience building the solution as an engineer, as well as leading a team to build it as the Project Lead. Skilled with Bash, Python, Containers, anything Cloud, and all things scripting and automation. My passions are finding new ways to automate tasks and designing secure infrastructure solutions.
+        I am a senior devops engineer and architect with a focus on designing, implementing, securing, and automating technology solutions. I have experience designing the solution as an architect, building the solution as an engineer, and leading the team as the project lead. Skilled with Bash, Python, Containers, anything Cloud, all things scripting and automation, and most importantly, soft skills.
     image: "https://user-images.githubusercontent.com/31193909/68639724-72de4000-04d3-11ea-8f54-236b83755cf1.png"
-    website: http://www.ilan.sh
+    website: https://ilan.sh
 
     networks:
         -   provider: github
             username: ilanponimansky
-            url: https://github.com/ilanponimansky
+            url: https://github.com/iloveicedgreentea
+
+        -   provider: github
+            username: opsline-ilan
+            url: https://github.com/opsline-ilan
 
         -   provider: linkedin
             username: ilanponimansky
@@ -24,29 +28,38 @@ skills:
             - Bash
             - Ruby
             - Powershell
-            - Node/React
+            - Node
             - Go
 
     -   area: Technology
         skills:
+            - Infrastructure as Code //Terraform, Cloudformation, Azure Resource Manager
             - Automation //Chef, Puppet, Salt
             - AWS / GCP / Azure
             - Containers //Docker, Kubernetes, ECS
-            - CI/CD
-            - SQL / NoSQL
+            - CI/CD //Jenkins, CircleCI, TravisCI, Teamcity
             - Cyber Security
+            - Various app frameworks //Django, Flask, Rails, React
+            - Compliance Frameworks //HIPAA, PCI, FedRAMP, NIST
             - Monitoring / Alerting //CloudWatch, Lambda, Datadog
             - Linux / Windows / Mac
-            - APIs
+            - SQL / NoSQL //MySQL, Postgres, Cassandra, Elasticsearch
 
 work:
     -   company: Opsline, NY, NY - Remote
         role: Senior Devops Engineer and Architect - Projects Team Lead
         date: November 2017 - Present
         website: https://www.opsline.com/
-        summary: I lead the projecs team and I am responsible for engineering and architecting custom Devops/Security solutions for companies.
+        summary: "I lead the projecs team and I am responsible for engineering and architecting custom Devops/Security solutions for companies. Some highlights include:"
         highlights:
-            - WIP
+            - Leading the Projects team - Managing engineers, project direction, scope, and priority
+            - Creating, planning, and managing sprints for multiple simultaious clients
+            - Cloud security audits
+            - Numerous VM/Physical to Docker migrations including a large enterprise with a 150+ cookbook Chef environment to a fully automated Kubernetes driven AWS solution with EKS
+            - Wrote a fully configurable, modularized, multi-cloud Terraform offering to create entire clouds with one command
+            - Wrote an autoscaler for ECS to scale on custom metrics and better utilization thresholds 
+            - Lead complete GCP to AWS migrations
+            - Created automated vulnerability scanning for CI/CD pipelines
     
     -   company: Cloud Quarterback, Bay Area, CA - Remote
         role: Devops / Security Engineer
