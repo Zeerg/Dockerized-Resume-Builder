@@ -181,28 +181,28 @@
             {% endfor %}
           </div>
         </section>
-        {% endif %} {% if projects %}
+        {% endif %} {% if certifications %}
         <section class="row">
           <header class="col-md-3">
-            <h3>{{ labels.projects or 'Projects' }}</h3>
+            <h3>{{ labels.certifications or 'Certifications' }}</h3>
           </header>
           <div class="col-md-9">
-            {% for project in projects %}
+            {% for certification in certifications %}
             <div class="item">
-              <h3>{{ project.name }}</h3> {% if project.role %}
-              <strong>{{ project.role }}</strong>
-              <br /> {% endif %} {% if project.date %}
-              <p class="sticky">{{ project.date }}</p>
-              {% endif %} {% if project.website %}
+              <h3>{{ certification.name }}</h3> {% if certification.role %}
+              <strong>{{ certification.role }}</strong>
+              <br /> {% endif %} {% if certification.year %}
+              <p class="sticky">{{ certification.year }}</p>
+              {% endif %} {% if certification.website %}
               <p class="sticky">
-                <a href="{{ project.website }}">{{ project.website }}</a>
+                <a href="{{ certification.website }}">{{ certification.website }}</a>
               </p>
               {% endif %}
-              <p>{{ project.summary }}</p>
+              <p>{{ certification.summary }}</p>
 
-              {% if project.highlights %}
+              {% if certification.highlights %}
               <ul>
-                {% for line in project.highlights %}
+                {% for line in certification.highlights %}
                 <li>{{ h.md(line) }}</li>
                 {% endfor %}
               </ul>

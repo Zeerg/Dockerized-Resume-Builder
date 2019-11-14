@@ -81,7 +81,7 @@ work:
             - Planning and implementing replacements of Citrix products, Skype for Business, and teleconference solutions internationally
             - Automating various tasks such as imaging and deployment
             
-    -   company: PRS IN VIVO
+    -   company: PRS IN VIVO, Teaneck, NJ
         role: Jr. System Administrator
         date: September 2014 - December 2015
         highlights:
@@ -90,25 +90,24 @@ work:
             - Automating tasks such as account creation, imaging and deployment, and installations
             - Upgrading and maintaining IT hardware including servers, wireless infrastructure, and user endpoints
 
-    -   company: Geek Squad
+    -   company: Geek Squad, East Hanover, NJ
         role: Operations Agent
         date: August 2012 - September 2014
  
-    -   company: Helpdesk at Drew University
+    -   company: Helpdesk at Drew University, Madison, NJ
         role: Helpdesk Technician
         date: October 2010 - August 2012
      
-
-        
-projects:
-
-    
+certifications:
+    -   name: Systems Security Certified Practitioner
+        year: 2017
+    -   name: Security+
+        year: 2016
 
 education:
     -   location: Drew University
         date: 2010 - 2014
         summary: "BA: Neuroscience"
-
 
 interests:
     - Pentesting
@@ -116,7 +115,6 @@ interests:
     - Neuroscience
     - Music production/recording
     - Rock Climbing
-
 
 config:
     theme: simple
