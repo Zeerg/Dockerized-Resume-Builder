@@ -57,6 +57,7 @@ work:
             - Cloud security audits
             - Numerous VM/Physical to Docker migrations including a large enterprise with a 150+ cookbook Chef environment to a fully automated Kubernetes driven AWS solution with EKS
             - Wrote a fully configurable, modularized, multi-cloud Terraform offering to create entire clouds with one command
+            - Elasticsearch 1,2,5+ migrations and management 
             - Wrote an autoscaler for ECS to scale on custom metrics and better utilization thresholds 
             - Lead complete GCP to AWS migrations
             - Created automated vulnerability scanning for CI/CD pipelines
