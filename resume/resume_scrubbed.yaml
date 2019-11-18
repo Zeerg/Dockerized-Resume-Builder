@@ -50,9 +50,9 @@ work:
         role: Senior Devops Engineer and Architect - Projects Team Lead
         date: November 2017 - Present
         website: https://www.opsline.com/
-        summary: "I lead the projects team and I am responsible for engineering and architecting custom Devops/Security solutions for companies. Some highlights include:"
+        summary: "I lead the Projects Team and I am responsible for engineering and architecting custom Devops/Security solutions for companies. Some highlights include:"
         highlights:
-            - Leading the Projects team - Managing engineers, project direction, scope, and priority
+            - Leading the Projects Team - Managing engineers, project direction, scope, and priority
             - Creating, planning, and managing sprints for multiple concurrent clients
             - Cloud security audits
             - Numerous VM/Physical to Docker migrations including a large enterprise with a 150+ cookbook Chef environment to a fully automated Kubernetes driven AWS solution with EKS
