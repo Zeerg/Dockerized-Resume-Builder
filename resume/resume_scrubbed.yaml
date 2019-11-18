@@ -60,6 +60,7 @@ work:
             - Wrote an autoscaler for ECS to scale on custom metrics and better utilization thresholds 
             - Lead complete GCP to AWS migrations
             - Created automated vulnerability scanning for CI/CD pipelines
+            - Involved in recruiting, hiring, interviewing candidates
     
     -   company: Cloud Quarterback, Bay Area, CA - Remote
         role: Devops / Security Engineer
