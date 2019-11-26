@@ -1,10 +1,10 @@
 profile:
     name: Ilan Ponimansky
-    label: Senior Devops Architect / Security Engineer 
+    label: Senior Devops Enginer, Architect / Security Engineer 
     email: me@ilan.sh
     phone: Please contact me by email
     summary: >
-        I am a senior devops engineer and architect with a focus on designing, implementing, securing, and automating technology solutions. I have experience designing the solution as an architect, building the solution as an engineer, and leading the team as the project lead. Skilled with Bash, Python, Containers, anything Cloud, all things scripting and automation, and most importantly, soft skills.
+        I am an experienced engineer and architect with a focus on designing, implementing, securing, and automating technology solutions. I have experience designing the solution as an architect, building the solution as an engineer, and leading the team as the project lead. Skilled with Bash, Python, Containers, Infrastructure as Code, anything Cloud, all things scripting and automation, and most importantly, soft skills.
     image: "https://user-images.githubusercontent.com/31193909/68639724-72de4000-04d3-11ea-8f54-236b83755cf1.png"
     website: https://ilan.sh
 
@@ -34,15 +34,15 @@ skills:
     -   area: Technology
         skills:
             - Infrastructure as Code //Terraform, Cloudformation, Azure Resource Manager
-            - Automation //Chef, Puppet, Salt
+            - Configuration Management //Chef, Ansible, Puppet, Salt
             - AWS / GCP / Azure
             - Containers //Docker, Kubernetes, ECS
             - CI/CD //Jenkins, CircleCI, TravisCI, Teamcity
             - Cyber Security
-            - Various app frameworks //Django, Flask, Rails, React
+            - Various Application Frameworks //Django, Flask, Rails, React
             - Compliance Frameworks //HIPAA, PCI, FedRAMP, NIST
-            - Monitoring / Alerting //CloudWatch, Lambda, Datadog
-            - Linux / Windows / Mac
+            - Monitoring / Alerting //CloudWatch, Lambda, Datadog, AWS Config
+            - Linux / Mac / Windows 
             - SQL / NoSQL //MySQL, Postgres, Cassandra, Elasticsearch
 
 work:
@@ -114,6 +114,7 @@ education:
 interests:
     - Pentesting
     - Car modifications
+    - Guitar/Drums
     - Music production/recording
     - Rock Climbing
 
